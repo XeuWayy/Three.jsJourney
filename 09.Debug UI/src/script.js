@@ -11,7 +11,11 @@ const gui = new GUI({
     title: "Cool Debug UI"
 })
 gui.hide()
-
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'g') {
+        gui.show(gui._hidden)
+    }
+})
 const cubeTweak = gui.addFolder("Cube Properties")
 const debugObj= {}
 
@@ -34,6 +38,7 @@ const material = new THREE.MeshBasicMaterial({ color: debugObj.color })
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
+cubeTweak.add(mesh.position, 'x', -2, 2, 0.2)
 cubeTweak.add(mesh.position, 'y', -2, 2, 0.2)
 cubeTweak.add(mesh, 'visible')
 cubeTweak.add(material, 'wireframe')
@@ -42,7 +47,7 @@ cubeTweak.addColor(debugObj, 'color').onChange((value) => {
 })
 
 debugObj.spin = () => {
-    const duration = 300;
+    const duration = 600;
     const targetRotation = mesh.rotation.y + Math.PI * 2;
     const startRotation = mesh.rotation.y;
     const startTime = performance.now();
