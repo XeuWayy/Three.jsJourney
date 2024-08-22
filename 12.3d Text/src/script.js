@@ -15,26 +15,32 @@ const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
-
+scene.background = new THREE.Color(0x3c3c3c)
 /**
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
 
 const matcapTexture = textureLoader.load('/textures/matcaps/8.png')
+const matcapTorusGeometryTexture = textureLoader.load('/textures/matcaps/6.png')
+const matcapSphereGeometryTexture = textureLoader.load('/textures/matcaps/5.png')
 matcapTexture.colorSpace = THREE.SRGBColorSpace
+matcapTorusGeometryTexture.colorSpace = THREE.SRGBColorSpace
+matcapSphereGeometryTexture.colorSpace = THREE.SRGBColorSpace
+
 /**
  * Fonts
  */
 
 const fontLoader = new FontLoader()
 
+let textMesh;
 fontLoader.load(
     '/fonts/helvetiker_regular.typeface.json',
     (font) =>
     {
         const textGeometry = new TextGeometry(
-            'Corentin Charton',
+            'Corentin (XeuWayy) Charton',
             {
                 font: font,
                 size: 0.5,
@@ -47,33 +53,44 @@ fontLoader.load(
                 bevelSegments: 3
             }
         )
-        // Center geometry (HARD WAY)
+        // Center textGeometry (HARD WAY)
         //textGeometry.computeBoundingBox()
         //textGeometry.translate(
         //    -(textGeometry.boundingBox.max.x - 0.02) * 0.5,
         //    -(textGeometry.boundingBox.max.y - 0.02) * 0.5,
         //    -(textGeometry.boundingBox.max.z - 0.03) * 0.5
-
         //)
 
-        // Center geometry (EZ WAY)
+        // Center textGeometry (EZ WAY)
         textGeometry.center()
 
         const textMaterial = new THREE.MeshMatcapMaterial({matcap: matcapTexture})
-        const text = new THREE.Mesh(textGeometry, textMaterial)
-        scene.add(text)
+        textMesh = new THREE.Mesh(textGeometry, textMaterial)
+        scene.add(textMesh)
 
         const donutGeometry = new THREE.TorusGeometry(0.3, 0.2, 20, 45)
-        const donutMaterial = new THREE.MeshMatcapMaterial({matcap: matcapTexture})
-        for (let i = 0; i < 250; i++) {
+        const donutMaterial = new THREE.MeshMatcapMaterial({matcap: matcapTorusGeometryTexture})
+
+        const diamondGeometry = new THREE.SphereGeometry(0.2, 10, 1)
+        const diamondMaterial = new THREE.MeshMatcapMaterial({matcap: matcapSphereGeometryTexture})
+        for (let i = 0; i < 150; i++) {
             const donut = new THREE.Mesh(donutGeometry, donutMaterial)
 
-            donut.position.set( (Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10)
+            donut.position.set( (Math.random() - 0.5) * 12, (Math.random() - 0.5) * 12, (Math.random() - 0.5) * 12)
             donut.rotation.set((Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10, 0)
 
-            const scale = Math.random()
-            donut.scale.set(scale, scale, scale)
+            const donutScale = Math.random()
+            donut.scale.set(donutScale, donutScale, donutScale)
             scene.add(donut)
+
+            const diamond = new THREE.Mesh(diamondGeometry, diamondMaterial)
+
+            diamond.position.set( (Math.random() - 0.5) * 11, (Math.random() - 0.5) * 11, (Math.random() - 0.5) * 11)
+            diamond.rotation.set((Math.random() - 0.5) * 10, (Math.random() - 0.5) * 10, 0)
+
+            const diamondScale = Math.random()
+            diamond.scale.set(diamondScale, diamondScale, diamondScale)
+            scene.add(diamond)
         }
     }
 )
@@ -128,13 +145,17 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 /**
  * Animate
  */
-const clock = new THREE.Clock()
 
 const tick = () =>
 {
-    const elapsedTime = clock.getElapsedTime()
 
     // Update controls
+    camera.position.x = Math.sin(Date.now() * 0.0005) * 4;
+    camera.position.y = Math.cos(Date.now() * 0.0005) * 3;
+    if (textMesh) {
+        camera.lookAt(textMesh.position);
+    }
+
     controls.update()
 
     // Render
