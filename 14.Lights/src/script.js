@@ -99,7 +99,6 @@ scene.add(pointLight)
 debugObj.rectAreaLightColor = 0x4E00FF
 const rectAreaLight = new THREE.RectAreaLight(debugObj.rectAreaLightColor, 0.9);
 rectAreaLight.visible = false
-rectAreaLight.rot
 reactAreaLightGui.add(rectAreaLight, 'visible').name('Light Enable')
 reactAreaLightGui.addColor(debugObj, 'rectAreaLightColor').onChange(() => {
     rectAreaLight.color.set(debugObj.rectAreaLightColor)
