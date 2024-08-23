@@ -46,7 +46,7 @@ scene.add(ambientLight)
 // DIRECTIONAL LIGHT
 
 debugObj.directionalLightColor = 0x00FFFC
-const directionalLight = new  THREE.DirectionalLight(debugObj.directionalLightColor, 0.9, { visible: false})
+const directionalLight = new  THREE.DirectionalLight(debugObj.directionalLightColor, 0.9)
 directionalLight.visible = false
 directionalLightGui.add(directionalLight, 'visible').name('Light Enable')
 directionalLightGui.addColor(debugObj, 'directionalLightColor').onChange(() => {
@@ -71,11 +71,11 @@ hemisphereLightGui.addColor(debugObj, 'hemisphereLightSkyColor').onChange(() => 
 hemisphereLightGui.addColor(debugObj, 'hemisphereLightGroundColor').onChange(() => {
     hemisphereLight.color.set(debugObj.hemisphereLightGroundColor)
 }).name('Ground Color')
+hemisphereLightGui.add(hemisphereLight, 'intensity').min(0).max(5).step(0.001).name('Intensity')
 hemisphereLightGui.add(hemisphereLight.position, 'x').min(-15).max(15).step(0.25).name('Pos X')
 hemisphereLightGui.add(hemisphereLight.position, 'y').min(-15).max(15).step(0.25).name('Pos Y')
 hemisphereLightGui.add(hemisphereLight.position, 'z').min(-15).max(15).step(0.25).name('Pos Z')
 scene.add(hemisphereLight)
-hemisphereLightGui.add(hemisphereLight, 'intensity').min(0).max(5).step(0.001).name('Intensity')
 
 // POINT LIGHT
 
@@ -99,6 +99,7 @@ scene.add(pointLight)
 debugObj.rectAreaLightColor = 0x4E00FF
 const rectAreaLight = new THREE.RectAreaLight(debugObj.rectAreaLightColor, 0.9);
 rectAreaLight.visible = false
+rectAreaLight.rot
 reactAreaLightGui.add(rectAreaLight, 'visible').name('Light Enable')
 reactAreaLightGui.addColor(debugObj, 'rectAreaLightColor').onChange(() => {
     rectAreaLight.color.set(debugObj.rectAreaLightColor)
@@ -106,6 +107,9 @@ reactAreaLightGui.addColor(debugObj, 'rectAreaLightColor').onChange(() => {
 reactAreaLightGui.add(rectAreaLight, 'intensity').min(0).max(5).step(0.001).name('Intensity')
 reactAreaLightGui.add(rectAreaLight, 'width').min(-15).max(15).step(0.001).name('Width')
 reactAreaLightGui.add(rectAreaLight, 'height').min(-15).max(15).step(0.001).name('Height')
+reactAreaLightGui.add(rectAreaLight.position, 'x').min(-15).max(15).step(0.25).name('Pos X')
+reactAreaLightGui.add(rectAreaLight.position, 'y').min(-15).max(15).step(0.25).name('Pos Y')
+reactAreaLightGui.add(rectAreaLight.position, 'z').min(-15).max(15).step(0.25).name('Pos Z')
 rectAreaLight.lookAt(new THREE.Vector3())
 scene.add(rectAreaLight);
 
@@ -119,10 +123,31 @@ spotLightGui.addColor(debugObj, 'spotLightColor').onChange(() => {
     spotLight.color.set(debugObj.spotLightColor)
 }).name('Light Color')
 spotLightGui.add(spotLight, 'intensity').min(0).max(5).step(0.001).name('Intensity')
-spotLightGui.add(spotLight, 'distance').min(-15).max(15).step(0.25).name('Distance')
-spotLightGui.add(spotLight.position, 'x').min(-15).max(15).step(0.25).name('Pos X')
-spotLightGui.add(spotLight.position, 'y').min(-15).max(15).step(0.25).name('Pos Y')
-spotLightGui.add(spotLight.position, 'z').min(-15).max(15).step(0.25).name('Pos Z')
+spotLightGui.add(spotLight, 'distance').min(0).max(15).step(0.25).name('Distance')
+spotLightGui.add(spotLight, 'angle').min(0).max(15).step(0.25).name('Angle')
+spotLightGui.add(spotLight, 'penumbra').min(0).max(1).step(0.001).name('Penumbra')
+
+spotLightGui.add(spotLight, 'decay').min(0).max(5).step(0.25).name('Decay')
+
+spotLightGui.add(spotLight.position, 'x').min(-15).max(15).step(0.25).name('Pos X').onChange( () => {
+    if (spotLightHelper.visible) {
+        spotLightHelper.update()
+    }
+})
+spotLightGui.add(spotLight.position, 'y').min(-15).max(15).step(0.25).name('Pos Y').onChange( () => {
+    if (spotLightHelper.visible) {
+        spotLightHelper.update()
+    }
+})
+spotLightGui.add(spotLight.position, 'z').min(-15).max(15).step(0.25).name('Pos Z').onChange( () => {
+    if (spotLightHelper.visible) {
+        spotLightHelper.update()
+    }
+}).onChange( () => {
+    if (spotLightHelper.visible) {
+        spotLightHelper.update()
+    }
+})
 scene.add(spotLight)
 
 /**
@@ -154,8 +179,6 @@ directionalLightGui.addColor(debugObj, 'directionalLightHelperColor').onChange((
     scene.add(directionalLightHelper)
 }).name('Helper Color')
 scene.add(directionalLightHelper)
-
-console.log(THREE.REVISION);
 
 
 debugObj.pointLightHelperColor = 0xFFFFFF
