@@ -38,6 +38,7 @@ const waterMaterial = new THREE.ShaderMaterial({
     vertexShader: perlinNoise + vertexSea,
     fragmentShader: fragmentSea,
     side: THREE.DoubleSide,
+    transparent: true,
     uniforms: {
         uTime: {value: 0},
 
@@ -57,7 +58,9 @@ const waterMaterial = new THREE.ShaderMaterial({
 
         uFogColor: {value: new THREE.Color(debugObject.fogColor)},
         uFogNear: {value: 3},
-        uFogFar: {value: 14}
+        uFogFar: {value: 14},
+
+        uLightningIntensity: {value: 0}
     }
 })
 gui.add(waterMaterial.uniforms.uBigWavesElevation, 'value').min(0).max(1).step(0.01).name('uBigWavesElevation')
@@ -152,6 +155,15 @@ sky.scale.set(100, 100, 100)
 scene.add(sky)
 
 /**
+ * Fog
+ */
+scene.fog = new THREE.Fog(debugObject.fogColor, waterMaterial.uniforms.uFogNear, waterMaterial.uniforms.uFogFar)
+
+const lightning = new THREE.PointLight(0xffffff, 0, 100);
+lightning.position.set(0, 10, 0);
+scene.add(lightning);
+
+/**
  * Animate
  */
 const clock = new THREE.Clock()
@@ -159,6 +171,31 @@ const clock = new THREE.Clock()
 const tick = () =>
 {
     const elapsedTime = clock.getElapsedTime()
+
+    // Lightning
+    if (Math.random() > 0.995) {
+        waterMaterial.uniforms.uLightningIntensity.value = Math.random() * 0.4 ;
+
+        sky.material.uniforms['turbidity'].value = THREE.MathUtils.lerp(sky.material.uniforms['turbidity'].value, 10, 0.1);
+        sky.material.uniforms['rayleigh'].value = THREE.MathUtils.lerp(sky.material.uniforms['rayleigh'].value, 2.2, 0.1);
+        sky.material.uniforms['mieCoefficient'].value = THREE.MathUtils.lerp(sky.material.uniforms['mieCoefficient'].value, 0.07, 0.1);
+        sky.material.uniforms['sunPosition'].value.set(
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.x, Math.random() * 1000, 0.1),
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.y, 5 + Math.random() * 10, 0.1),
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.z, Math.random() * 1000, 0.1)
+        );
+    } else {
+        waterMaterial.uniforms.uLightningIntensity.value *= 0.9;
+
+        sky.material.uniforms['turbidity'].value = THREE.MathUtils.lerp(sky.material.uniforms['turbidity'].value, 15, 0.1);
+        sky.material.uniforms['rayleigh'].value = THREE.MathUtils.lerp(sky.material.uniforms['rayleigh'].value, 2, 0.1);
+        sky.material.uniforms['mieCoefficient'].value = THREE.MathUtils.lerp(sky.material.uniforms['mieCoefficient'].value, 0.05, 0.1);
+        sky.material.uniforms['sunPosition'].value.set(
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.x, 0.3, 0.1),
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.y, -0.1, 0.1),
+            THREE.MathUtils.lerp(sky.material.uniforms['sunPosition'].value.z, -0.95, 0.1)
+        );
+    }
 
     // Update Water
     waterMaterial.uniforms.uTime.value = elapsedTime

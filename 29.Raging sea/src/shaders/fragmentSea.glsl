@@ -8,6 +8,8 @@ uniform vec3 uFogColor;
 uniform float uFogNear;
 uniform float uFogFar;
 
+uniform float uLightningIntensity;
+
 varying float vElevation;
 
 void main() {
@@ -16,9 +18,12 @@ void main() {
 
     float fogFactor = smoothstep(uFogNear, uFogFar, gl_FragCoord.z / gl_FragCoord.w);
 
-    vec3 finalColor = mix(color, uFogColor, fogFactor);
+    color += uLightningIntensity * vec3(1.0, 1.0, 1.0);
 
-    gl_FragColor = vec4(finalColor, 1.0);
+    vec3 finalColor = mix(color, uFogColor, fogFactor);
+    float alpha = 1.0 - fogFactor;
+
+    gl_FragColor = vec4(finalColor, alpha);
 
     #include <colorspace_fragment>
 }
