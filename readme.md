@@ -109,7 +109,7 @@
 
 # [Three.js Journey - (WIP)][BrunoFormation]
 
-## Chapter 01 - Basicéé
+## Chapter 01 - Basic
 *  **03 - First Three.js Project** [<kbd> <br> View Code <br> </kbd>][03ViewCode] [<kbd> <br> Live Demo <br> </kbd>][03Demo]
 *  **04 - Transform objects** [<kbd> <br> View Code <br> </kbd>][04ViewCode] [<kbd> <br> Live Demo <br> </kbd>][04Demo]
 *  **05 - Animation** [<kbd> <br> View Code <br> </kbd>][05ViewCode] [<kbd> <br> Live Demo <br> </kbd>][05Demo]
