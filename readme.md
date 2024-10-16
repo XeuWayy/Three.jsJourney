@@ -74,7 +74,7 @@
 
 <!------------------[README AREA]------------------>
 
-# [Three.js Journey - (WIP)][BrunoFormatio21
+# [Three.js Journey - (WIP)][BrunoFormation]
 
 ## Chapter 01 - Basicéé
 *  **03 - First Three.js Project** [<kbd> <br> View Code <br> </kbd>][03ViewCode] [<kbd> <br> Live Demo <br> </kbd>][03Demo]
