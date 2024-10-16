@@ -72,6 +72,39 @@
 [26ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/f652178dcfecb45902453bf472e2f194459b0b01/Chapter%2003%3A%20Advanced%20techniques/26.Code%20structuring%20for%20bigger%20projects
 [26Demo]: https://26codestructuringforbiggerprojects.vercel.app
 
+[27ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/27.Shaders
+[27Demo]: https://
+
+[28ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/28.Shader%20patterns
+[28Demo]: https://
+
+[29ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/29.Raging%20sea
+[29Demo]: https://
+
+[30ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/30.Animated%20galaxy
+[30Demo]: https://
+
+[31ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/31.Modified%20materials
+[31Demo]: https://
+
+[32ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/32.Coffee%20Smoke
+[32Demo]: https://
+
+[33ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/33.Hologram
+[33Demo]: https://
+
+[34ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/34.Fireworks
+[34Demo]: https://
+
+[35ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/35.Light%20shading%20shaders
+[35Demo]: https://
+
+[36ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/36.Raging%20Sea%20Shading
+[36Demo]: https://
+
+[37ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/37.Halftone%20Shading
+[37Demo]: https://
+
 <!------------------[README AREA]------------------>
 
 # [Three.js Journey - (WIP)][BrunoFormation]
@@ -106,3 +139,18 @@
 *  **24 - Environment map** [<kbd> <br> View Code <br> </kbd>][24ViewCode] [<kbd> <br> Live Demo <br> </kbd>][24Demo]
 *  **25 - Realistic render** [<kbd> <br> View Code <br> </kbd>][25ViewCode] [<kbd> <br> Live Demo <br> </kbd>][25Demo]
 *  **26 - Code structuring for bigger projects** [<kbd> <br> View Code <br> </kbd>][26ViewCode] [<kbd> <br> Live Demo <br> </kbd>][26Demo]
+
+## Chapter 04 - Shaders
+
+*  **27 - Shaders** [<kbd> <br> View Code <br> </kbd>][27ViewCode] [<kbd> <br> Live Demo <br> </kbd>][27Demo]
+*  **28 - Shaders Pattern** [<kbd> <br> View Code <br> </kbd>][28ViewCode] [<kbd> <br> Live Demo <br> </kbd>][28Demo]
+*  **29 - Raging sea** [<kbd> <br> View Code <br> </kbd>][29ViewCode] [<kbd> <br> Live Demo <br> </kbd>][29Demo]
+*  **30 - Animated galaxy** [<kbd> <br> View Code <br> </kbd>][30ViewCode] [<kbd> <br> Live Demo <br> </kbd>][30Demo]
+*  **31 - Modified materials** [<kbd> <br> View Code <br> </kbd>][31ViewCode] [<kbd> <br> Live Demo <br> </kbd>][31Demo]
+*  **32 - Coffee smoke** [<kbd> <br> View Code <br> </kbd>][32ViewCode] [<kbd> <br> Live Demo <br> </kbd>][32Demo]
+*  **33 - Hologram** [<kbd> <br> View Code <br> </kbd>][33ViewCode] [<kbd> <br> Live Demo <br> </kbd>][33Demo]
+*  **34 - Fireworks** [<kbd> <br> View Code <br> </kbd>][34ViewCode] [<kbd> <br> Live Demo <br> </kbd>][34Demo]
+*  **35 - Light shading shaders** [<kbd> <br> View Code <br> </kbd>][35ViewCode] [<kbd> <br> Live Demo <br> </kbd>][35Demo]
+*  **36 - Raging Sea Shading** [<kbd> <br> View Code <br> </kbd>][36ViewCode] [<kbd> <br> Live Demo <br> </kbd>][36Demo]
+*  **37 - Halftone Shading** [<kbd> <br> View Code <br> </kbd>][37ViewCode] [<kbd> <br> Live Demo <br> </kbd>][37Demo]
+
