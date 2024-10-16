@@ -33,10 +33,27 @@
 [12ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2001%3A%20Basics/12.3d%20Text
 [12Demo]: https://123dtext.vercel.app
 
+[14ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/14.Lights
+[14Demo]: https://14lights.vercel.app
+
+[15ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/15.Shadows
+[15Demo]: https://15shadows.vercel.app
+
+[16ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/16.Haunted%20House
+[16Demo]: https://16hauntedhouse.vercel.app
+
+[17ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/17.Particles
+[17Demo]: https://17particles.vercel.app
+
+[18ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/18.Galaxy%20Generator
+[18Demo]: https://18galaxygenerator.vercel.app
+
+[19ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2002%3A%20Classic%20techniques/19.Scroll%20based%20animation
+[19Demo]: https://19scroolbasedanimation.vercel.app
 
 <!------------------[README AREA]------------------>
 
-# [Three.js Journey][BrunoFormation]
+# [Three.js Journey - (WIP)][BrunoFormation]
 
 ## Chapter 01 - Basics
 
@@ -51,4 +68,11 @@
 *  **11 - Materials** [<kbd> <br> View Code <br> </kbd>][11ViewCode] [<kbd> <br> Live Demo <br> </kbd>][11Demo]
 *  **12 - 3d Text** [<kbd> <br> View Code <br> </kbd>][12ViewCode] [<kbd> <br> Live Demo <br> </kbd>][12Demo]
 
+## Chapter 02 - Classic techniques
 
+*  **14 - Lights** [<kbd> <br> View Code <br> </kbd>][14ViewCode] [<kbd> <br> Live Demo <br> </kbd>][14Demo]
+*  **15 - Shadows** [<kbd> <br> View Code <br> </kbd>][15ViewCode] [<kbd> <br> Live Demo <br> </kbd>][15Demo]
+*  **16 - Haunted House** [<kbd> <br> View Code <br> </kbd>][16ViewCode] [<kbd> <br> Live Demo <br> </kbd>][16Demo]
+*  **17 - Particles** [<kbd> <br> View Code <br> </kbd>][17ViewCode] [<kbd> <br> Live Demo <br> </kbd>][17Demo]
+*  **18 - Galaxy Generator** [<kbd> <br> View Code <br> </kbd>][18ViewCode] [<kbd> <br> Live Demo <br> </kbd>][18Demo]
+*  **18 - Scroll based animation** [<kbd> <br> View Code <br> </kbd>][19ViewCode] [<kbd> <br> Live Demo <br> </kbd>][19Demo]
