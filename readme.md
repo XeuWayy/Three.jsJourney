@@ -15,8 +15,8 @@
 
 ## Chapter 01 - Basics
 
-* ### **03 - First Three.js Project** [<kbd> <br> View Code <br> </kbd>][03ViewCode] [<kbd> <br> Live Demo <br> </kbd>][03Demo]
-* ### **04 - Transform objects** [<kbd> <br> View Code <br> </kbd>][04ViewCode] [<kbd> <br> Live Demo <br> </kbd>][04Demo]
+* #### **03 - First Three.js Project** [<kbd> <br> View Code <br> </kbd>][03ViewCode] [<kbd> <br> Live Demo <br> </kbd>][03Demo]
+*  **04 - Transform objects** [<kbd> <br> View Code <br> </kbd>][04ViewCode] [<kbd> <br> Live Demo <br> </kbd>][04Demo]
 
 
 
