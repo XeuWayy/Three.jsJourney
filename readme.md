@@ -75,4 +75,4 @@
 *  **16 - Haunted House** [<kbd> <br> View Code <br> </kbd>][16ViewCode] [<kbd> <br> Live Demo <br> </kbd>][16Demo]
 *  **17 - Particles** [<kbd> <br> View Code <br> </kbd>][17ViewCode] [<kbd> <br> Live Demo <br> </kbd>][17Demo]
 *  **18 - Galaxy Generator** [<kbd> <br> View Code <br> </kbd>][18ViewCode] [<kbd> <br> Live Demo <br> </kbd>][18Demo]
-*  **18 - Scroll based animation** [<kbd> <br> View Code <br> </kbd>][19ViewCode] [<kbd> <br> Live Demo <br> </kbd>][19Demo]
+*  **19 - Scroll based animation** [<kbd> <br> View Code <br> </kbd>][19ViewCode] [<kbd> <br> Live Demo <br> </kbd>][19Demo]
