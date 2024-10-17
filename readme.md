@@ -3,6 +3,9 @@
 [ThreeJsJourneyLogo]: /assets/threejs.png
 [BrunoFormation]: https://threejs-journey.com/
 
+[GitHubIcon]: https://img.shields.io/badge/-Code-181717?style=for-the-badge&logo=github&logoColor=white
+[DemoOnVercel]: https://img.shields.io/badge/-Demo%20on%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+
 [03ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2001%3A%20Basics/03.First%20Three.js%20Project
 [03Demo]: https://firstthreeproject.vercel.app/
 
@@ -105,52 +108,156 @@
 [37ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/37.Halftone%20Shading
 [37Demo]: https://
 
+[38ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/38.Earth
+[38Demo]: https://
+
 <!------------------[README AREA]------------------>
 
 # [Three.js Journey - (WIP)][BrunoFormation]
 
 ## Chapter 01 - Basic
-*  **03 - First Three.js Project** [<kbd> <br> View Code <br> </kbd>][03ViewCode] [<kbd> <br> Live Demo <br> </kbd>][03Demo]
-*  **04 - Transform objects** [<kbd> <br> View Code <br> </kbd>][04ViewCode] [<kbd> <br> Live Demo <br> </kbd>][04Demo]
-*  **05 - Animation** [<kbd> <br> View Code <br> </kbd>][05ViewCode] [<kbd> <br> Live Demo <br> </kbd>][05Demo]
-*  **06 - Cameras** [<kbd> <br> View Code <br> </kbd>][06ViewCode] [<kbd> <br> Live Demo <br> </kbd>][06Demo]
-*  **07 - Fullscreen and resizing** [<kbd> <br> View Code <br> </kbd>][07ViewCode] [<kbd> <br> Live Demo <br> </kbd>][07Demo]
-*  **08 - Geometries** [<kbd> <br> View Code <br> </kbd>][08ViewCode] [<kbd> <br> Live Demo <br> </kbd>][08Demo]
-*  **09 - Debug UI** [<kbd> <br> View Code <br> </kbd>][09ViewCode] [<kbd> <br> Live Demo <br> </kbd>][09Demo]
-*  **10 - Debug UI** [<kbd> <br> View Code <br> </kbd>][10ViewCode] [<kbd> <br> Live Demo <br> </kbd>][10Demo]
-*  **11 - Materials** [<kbd> <br> View Code <br> </kbd>][11ViewCode] [<kbd> <br> Live Demo <br> </kbd>][11Demo]
-*  **12 - 3d Text** [<kbd> <br> View Code <br> </kbd>][12ViewCode] [<kbd> <br> Live Demo <br> </kbd>][12Demo]
+*  **03 - First Three.js Project**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][03ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][03Demo]</span>
+
+*  **04 - Transform objects** 
+    <span style="vertical-align: middle;">[![Code][GitHubIcon]][04ViewCode]</span>
+    <span style="vertical-align: middle;">[![DemoOnVercel]][04Demo]</span>
+
+*  **05 - Animation**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][05ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][05Demo]</span>
+
+*  **06 - Cameras**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][06ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][06Demo]</span>
+
+*  **07 - Fullscreen and resizing**
+    <span style="vertical-align: middle;">[![Code][GitHubIcon]][07ViewCode]</span>
+    <span style="vertical-align: middle;">[![DemoOnVercel]][07Demo]</span>
+
+*  **08 - Geometries**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][08ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][08Demo]</span>
+
+*  **09 - Debug UI**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][09ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][09Demo]</span>
+
+*  **10 - Debug UI**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][10ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][10Demo]</span>
+
+*  **11 - Materials**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][11ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][11Demo]</span>
+
+*  **12 - 3d Text**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][12ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][12Demo]</span>
 
 ## Chapter 02 - Classic techniques
 
-*  **14 - Lights** [<kbd> <br> View Code <br> </kbd>][14ViewCode] [<kbd> <br> Live Demo <br> </kbd>][14Demo]
-*  **15 - Shadows** [<kbd> <br> View Code <br> </kbd>][15ViewCode] [<kbd> <br> Live Demo <br> </kbd>][15Demo]
-*  **16 - Haunted House** [<kbd> <br> View Code <br> </kbd>][16ViewCode] [<kbd> <br> Live Demo <br> </kbd>][16Demo]
-*  **17 - Particles** [<kbd> <br> View Code <br> </kbd>][17ViewCode] [<kbd> <br> Live Demo <br> </kbd>][17Demo]
-*  **18 - Galaxy Generator** [<kbd> <br> View Code <br> </kbd>][18ViewCode] [<kbd> <br> Live Demo <br> </kbd>][18Demo]
-*  **19 - Scroll based animation** [<kbd> <br> View Code <br> </kbd>][19ViewCode] [<kbd> <br> Live Demo <br> </kbd>][19Demo]
+*  **14 - Lights**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][14ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][14Demo]</span>
+
+*  **15 - Shadows**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][15ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][15Demo]</span>
+
+*  **16 - Haunted House**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][16ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][16Demo]</span>
+
+*  **17 - Particles**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][17ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][17Demo]</span>
+
+*  **18 - Galaxy Generator**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][18ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][18Demo]</span>
+
+*  **19 - Scroll based animation**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][19ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][19Demo]</span>
 
 ## Chapter 03 - Advanced techniques
 
-*  **20 - Physics** [<kbd> <br> View Code <br> </kbd>][20ViewCode] [<kbd> <br> Live Demo <br> </kbd>][20Demo]
-*  **21 - Imported Models** [<kbd> <br> View Code <br> </kbd>][21ViewCode] [<kbd> <br> Live Demo <br> </kbd>][21Demo]
-*  **22 - Raycaster and Mouse Events** [<kbd> <br> View Code <br> </kbd>][22ViewCode] [<kbd> <br> Live Demo <br> </kbd>][22Demo]
-*  **23 - Custom models with Blender** [<kbd> <br> View Code <br> </kbd>][23ViewCode] [<kbd> <br> Live Demo <br> </kbd>][23Demo]
-*  **24 - Environment map** [<kbd> <br> View Code <br> </kbd>][24ViewCode] [<kbd> <br> Live Demo <br> </kbd>][24Demo]
-*  **25 - Realistic render** [<kbd> <br> View Code <br> </kbd>][25ViewCode] [<kbd> <br> Live Demo <br> </kbd>][25Demo]
-*  **26 - Code structuring for bigger projects** [<kbd> <br> View Code <br> </kbd>][26ViewCode] [<kbd> <br> Live Demo <br> </kbd>][26Demo]
+*  **20 - Physics**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][20ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][20Demo]</span>
+
+*  **21 - Imported Models**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][21ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][21Demo]</span>
+
+*  **22 - Raycaster and Mouse Events**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][22ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][22Demo]</span>
+
+*  **23 - Custom models with Blender**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][23ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][23Demo]</span>
+
+*  **24 - Environment map**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][24ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][24Demo]</span>
+
+*  **25 - Realistic render**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][25ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][25Demo]</span>
+
+*  **26 - Code structuring for bigger projects**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][26ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][26Demo]</span>
 
 ## Chapter 04 - Shaders
 
-*  **27 - Shaders** [<kbd> <br> View Code <br> </kbd>][27ViewCode] [<kbd> <br> Live Demo <br> </kbd>][27Demo]
-*  **28 - Shaders Pattern** [<kbd> <br> View Code <br> </kbd>][28ViewCode] [<kbd> <br> Live Demo <br> </kbd>][28Demo]
-*  **29 - Raging sea** [<kbd> <br> View Code <br> </kbd>][29ViewCode] [<kbd> <br> Live Demo <br> </kbd>][29Demo]
-*  **30 - Animated galaxy** [<kbd> <br> View Code <br> </kbd>][30ViewCode] [<kbd> <br> Live Demo <br> </kbd>][30Demo]
-*  **31 - Modified materials** [<kbd> <br> View Code <br> </kbd>][31ViewCode] [<kbd> <br> Live Demo <br> </kbd>][31Demo]
-*  **32 - Coffee smoke** [<kbd> <br> View Code <br> </kbd>][32ViewCode] [<kbd> <br> Live Demo <br> </kbd>][32Demo]
-*  **33 - Hologram** [<kbd> <br> View Code <br> </kbd>][33ViewCode] [<kbd> <br> Live Demo <br> </kbd>][33Demo]
-*  **34 - Fireworks** [<kbd> <br> View Code <br> </kbd>][34ViewCode] [<kbd> <br> Live Demo <br> </kbd>][34Demo]
-*  **35 - Light shading shaders** [<kbd> <br> View Code <br> </kbd>][35ViewCode] [<kbd> <br> Live Demo <br> </kbd>][35Demo]
-*  **36 - Raging Sea Shading** [<kbd> <br> View Code <br> </kbd>][36ViewCode] [<kbd> <br> Live Demo <br> </kbd>][36Demo]
-*  **37 - Halftone Shading** [<kbd> <br> View Code <br> </kbd>][37ViewCode] [<kbd> <br> Live Demo <br> </kbd>][37Demo]
+*  **27 - Shaders**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][27ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][27Demo]</span>
 
+*  **28 - Shaders Pattern**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][28ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][28Demo]</span>
+
+*  **29 - Raging sea**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][29ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][29Demo]</span>
+
+*  **30 - Animated galaxy**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][30ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][30Demo]</span>
+
+*  **31 - Modified materials**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][31ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][31Demo]</span>
+
+*  **32 - Coffee smoke**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][32ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][32Demo]</span>
+
+*  **33 - Hologram**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][33ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][33Demo]</span>
+
+*  **34 - Fireworks**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][34ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][34Demo]</span>
+
+*  **35 - Light shading shaders**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][35ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][35Demo]</span>
+
+*  **36 - Raging Sea Shading**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][36ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][36Demo]</span>
+
+*  **37 - Halftone Shading**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][37ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][37Demo]</span>
+
+*  **38 - Earth Shading**
+   <span style="vertical-align: middle;">[![Code][GitHubIcon]][38ViewCode]</span>
+   <span style="vertical-align: middle;">[![DemoOnVercel]][38Demo]</span>
