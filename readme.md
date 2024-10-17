@@ -76,40 +76,40 @@
 [26Demo]: https://26codestructuringforbiggerprojects.vercel.app
 
 [27ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/27.Shaders
-[27Demo]: https://
+[27Demo]: https://27shaders.vercel.app
 
 [28ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/28.Shader%20patterns
-[28Demo]: https://
+[28Demo]: https://28shaderpatterns.vercel.app
 
 [29ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/29.Raging%20sea
-[29Demo]: https://
+[29Demo]: https://29ragingsee.vercel.app
 
 [30ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/30.Animated%20galaxy
-[30Demo]: https://
+[30Demo]: https://30animatedgalaxy.vercel.app
 
 [31ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/31.Modified%20materials
-[31Demo]: https://
+[31Demo]: https://31modifiedmaterials.vercel.app
 
 [32ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/32.Coffee%20Smoke
-[32Demo]: https://
+[32Demo]: https://32coffeesmoke.vercel.app
 
 [33ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/33.Hologram
-[33Demo]: https://
+[33Demo]: https://33hologram.vercel.app
 
 [34ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/34.Fireworks
-[34Demo]: https://
+[34Demo]: https://34fireworks.vercel.app
 
 [35ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/35.Light%20shading%20shaders
-[35Demo]: https://
+[35Demo]: https://35lightshadingshaders.vercel.app
 
 [36ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/36.Raging%20Sea%20Shading
-[36Demo]: https://
+[36Demo]: https://36ragingseashading.vercel.app
 
 [37ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/071f7e51f8bed11a14205a5e706b431bd808487d/Chapter%2004%3A%20Shaders/37.Halftone%20Shading
-[37Demo]: https://
+[37Demo]: https://37halftoneshading.vercel.app
 
 [38ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/38.Earth
-[38Demo]: https://
+[38Demo]: https://38earth.vercel.app
 
 <!------------------[README AREA]------------------>
 
