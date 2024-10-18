@@ -111,6 +111,9 @@
 [38ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/38.Earth
 [38Demo]: https://38earth.vercel.app
 
+[39ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/39.Particles%20Cursor%20Animation
+[39Demo]: https://39particlescursoranimation.vercel.app
+
 <!------------------[README AREA]------------------>
 
 # [Three.js Journey - (WIP)][BrunoFormation]
@@ -156,17 +159,18 @@ This repository contains my projects based on Bruno Simon's [Three.js Journey][B
 
 ## Chapter 04 - Shaders
 
-| Project                         | Code                              | Demo                      |
-|---------------------------------|-----------------------------------|---------------------------|
-| **27 - Shaders**                | [![Code][GitHubIcon]][27ViewCode] | [![DemoOnVercel]][27Demo] |
-| **28 - Shaders Pattern**        | [![Code][GitHubIcon]][28ViewCode] | [![DemoOnVercel]][28Demo] |
-| **29 - Raging sea**             | [![Code][GitHubIcon]][29ViewCode] | [![DemoOnVercel]][29Demo] |
-| **30 - Animated galaxy**        | [![Code][GitHubIcon]][30ViewCode] | [![DemoOnVercel]][30Demo] |
-| **31 - Modified materials**     | [![Code][GitHubIcon]][31ViewCode] | [![DemoOnVercel]][31Demo] |
-| **32 - Coffee smoke**           | [![Code][GitHubIcon]][32ViewCode] | [![DemoOnVercel]][32Demo] |
-| **33 - Hologram**               | [![Code][GitHubIcon]][33ViewCode] | [![DemoOnVercel]][33Demo] |
-| **34 - Fireworks**              | [![Code][GitHubIcon]][34ViewCode] | [![DemoOnVercel]][34Demo] |
-| **35 - Light shading shaders**  | [![Code][GitHubIcon]][35ViewCode] | [![DemoOnVercel]][35Demo] |
-| **36 - Raging Sea Shading**     | [![Code][GitHubIcon]][36ViewCode] | [![DemoOnVercel]][36Demo] |
-| **37 - Halftone Shading**       | [![Code][GitHubIcon]][37ViewCode] | [![DemoOnVercel]][37Demo] |
-| **38 - Earth Shading**          | [![Code][GitHubIcon]][38ViewCode] | [![DemoOnVercel]][38Demo] |
+| Project                             | Code                              | Demo                      |
+|-------------------------------------|-----------------------------------|---------------------------|
+| **27 - Shaders**                    | [![Code][GitHubIcon]][27ViewCode] | [![DemoOnVercel]][27Demo] |
+| **28 - Shaders Pattern**            | [![Code][GitHubIcon]][28ViewCode] | [![DemoOnVercel]][28Demo] |
+| **29 - Raging sea**                 | [![Code][GitHubIcon]][29ViewCode] | [![DemoOnVercel]][29Demo] |
+| **30 - Animated galaxy**            | [![Code][GitHubIcon]][30ViewCode] | [![DemoOnVercel]][30Demo] |
+| **31 - Modified materials**         | [![Code][GitHubIcon]][31ViewCode] | [![DemoOnVercel]][31Demo] |
+| **32 - Coffee smoke**               | [![Code][GitHubIcon]][32ViewCode] | [![DemoOnVercel]][32Demo] |
+| **33 - Hologram**                   | [![Code][GitHubIcon]][33ViewCode] | [![DemoOnVercel]][33Demo] |
+| **34 - Fireworks**                  | [![Code][GitHubIcon]][34ViewCode] | [![DemoOnVercel]][34Demo] |
+| **35 - Light shading shaders**      | [![Code][GitHubIcon]][35ViewCode] | [![DemoOnVercel]][35Demo] |
+| **36 - Raging Sea Shading**         | [![Code][GitHubIcon]][36ViewCode] | [![DemoOnVercel]][36Demo] |
+| **37 - Halftone Shading**           | [![Code][GitHubIcon]][37ViewCode] | [![DemoOnVercel]][37Demo] |
+| **38 - Earth Shading**              | [![Code][GitHubIcon]][38ViewCode] | [![DemoOnVercel]][38Demo] |
+| **39 - Particles Cursor Animation** | [![Code][GitHubIcon]][39ViewCode] | [![DemoOnVercel]][39Demo] |
