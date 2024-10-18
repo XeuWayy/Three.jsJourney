@@ -111,7 +111,7 @@
 [38ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/38.Earth
 [38Demo]: https://38earth.vercel.app
 
-[39ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/6ee345c3482464edd91f89c299690c5dae57890c/Chapter%2004%3A%20Shaders/39.Particles%20Cursor%20Animation
+[39ViewCode]: https://github.com/XeuWayy/Three.jsJourney/tree/main/Chapter%2004%3A%20Shaders/39.Particles%20Cursor%20Animation
 [39Demo]: https://39particlescursoranimation.vercel.app
 
 <!------------------[README AREA]------------------>
