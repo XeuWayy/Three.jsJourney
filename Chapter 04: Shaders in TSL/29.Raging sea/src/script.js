@@ -12,7 +12,7 @@ import {
     uniform,
     float,
     modelWorldMatrix,
-    cameraViewMatrix, cameraProjectionMatrix, positionLocal
+    cameraViewMatrix, cameraProjectionMatrix, positionLocal, vec2, time
 } from "three/tsl";
 import * as viewMatrix from "three/tsl";
 import * as projectionMatrix from "three/tsl";
@@ -46,14 +46,20 @@ const water = new THREE.Mesh(waterGeometry, waterMaterial)
 water.rotation.x = - Math.PI * 0.5
 scene.add(water)
 
-// Water verter shader
+// Water vertex shader
 
 const uBigWavesElavation = uniform(0.2)
+const uBigWavesFrequency = uniform(vec2(4.0, 1.0))
+const elapsed = uniform(0)
 
 const waterVertex = Fn( () => {
     const position = positionLocal.toVar()
 
-    position.y.addAssign(2.0)
+    const elevation = sin(position.x.mul(uBigWavesFrequency.x).add(time))
+                    .mul(sin(position.y.mul(uBigWavesFrequency.y).add(time)))
+                    .mul(uBigWavesElavation);
+
+    position.z.assign(elevation)
 
     return position
 })
@@ -69,7 +75,9 @@ const waterFragment = Fn( () => {
 waterMaterial.colorNode = waterFragment()
 
 // Debug water
-pane.addBinding(waterMaterial, 'wireframe')
+pane.addBinding(waterMaterial, 'wireframe', {label: 'Water Wireframe'})
+pane.addBinding(uBigWavesElavation, 'value', {min: 0, max: 1, step: 0.001, label:'Big Waves Elevation'})
+pane.addBinding(uBigWavesFrequency, 'value', {min: 0, max: 25, step: 0.5, label:'Big Waves Elevation'})
 
 
 const cube = new THREE.Mesh(
@@ -137,6 +145,7 @@ const clock = new THREE.Clock()
 const tick = () =>
 {
     const elapsedTime = clock.getElapsedTime()
+    elapsed.value = elapsedTime
 
     // Update controls
     controls.update()

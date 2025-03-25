@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import {Sky} from "three/addons";
 import GUI from 'lil-gui'
+import Stats from "three/addons/libs/stats.module.js";
 
 import perlinNoise from './shaders/includes/perlinNoise.glsl'
 import vertexSea from './shaders/raging_sea/vertex.glsl'
@@ -178,6 +179,7 @@ const clock = new THREE.Clock()
 
 const tick = () =>
 {
+    stats.begin()
     const elapsedTime = clock.getElapsedTime()
 
     // Lightning
@@ -214,6 +216,7 @@ const tick = () =>
     // Render
     renderer.render(scene, camera)
 
+    stats.end()
     // Call tick again on the next frame
     window.requestAnimationFrame(tick)
 }
